@@ -3,7 +3,7 @@ import * as bunyan from 'bunyan';
 
 import { setRoutes } from './routes';
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 const log = bunyan.createLogger({
   name : "svcapp"
